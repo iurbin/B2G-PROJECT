@@ -1,0 +1,185 @@
+/* Color Palette variables */
+:root {
+    --color-white: #ffffff;
+    --color-primary: #152ae8; /* Blue */
+    --color-light: #afb4ce;   /* Light Gray/Blue */
+    --color-black: #000000;
+    --color-bg: #f5f5f7; /* iOS background color */
+}
+
+/* Typography & Base */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-black);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -0.02em;
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
+
+.bg-light-blue {
+    background-color: rgba(175, 180, 206, 0.15); /* Soft version of #afb4ce */
+}
+
+.py-6 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* Navigation - iOS Glassmorphism effect */
+.navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.ios-nav {
+    background-color: rgba(245, 245, 247, 0.72);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 15px 0;
+    transition: all 0.3s ease;
+}
+
+.ios-nav .navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: -0.5px;
+    color: var(--color-black);
+}
+
+.ios-nav .nav-link {
+    color: var(--color-black);
+    font-weight: 500;
+    margin: 0 10px;
+    transition: color 0.2s ease;
+}
+
+.ios-nav .nav-link:hover {
+    color: var(--color-primary);
+}
+
+/* iOS Style Buttons */
+.ios-btn {
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 24px; /* Highly rounded */
+    padding: 10px 24px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    color: var(--color-white);
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 14px 0 rgba(21, 42, 232, 0.39);
+}
+
+.ios-btn:hover, .ios-btn:focus, .ios-btn:active {
+    background-color: #1021bc !important;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(21, 42, 232, 0.23);
+    color: var(--color-white) !important;
+}
+
+.ios-btn-secondary {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    border: 1px solid var(--color-light);
+    border-radius: 24px;
+    padding: 10px 24px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.ios-btn-secondary:hover {
+    background-color: var(--color-light);
+    color: var(--color-black);
+    border-color: var(--color-light);
+}
+
+.ios-btn-icon {
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+}
+
+.ios-btn-icon:focus {
+    box-shadow: none;
+}
+
+/* Badge */
+.ios-badge {
+    background-color: rgba(21, 42, 232, 0.1);
+    color: var(--color-primary);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 160px 0 80px;
+    background: linear-gradient(180deg, #ffffff 0%, var(--color-bg) 100%);
+}
+
+.hero-text {
+    color: #555;
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* iOS Cards (Squircle-like) */
+.ios-card {
+    background-color: var(--color-white);
+    border-radius: 24px;
+    border: 1px solid rgba(175, 180, 206, 0.3); /* Subtle light border */
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05); /* Soft, diffused shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ios-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 16px;
+    font-size: 1.5rem;
+}
+
+/* iOS Input Fields */
+.ios-input {
+    background-color: rgba(175, 180, 206, 0.1);
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 12px 16px;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+.ios-input:focus {
+    background-color: var(--color-white);
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 4px rgba(21, 42, 232, 0.15);
+    outline: none;
+}
+
+/* Footer */
+.ios-footer {
+    background-color: var(--color-white);
+    border-top: 1px solid rgba(175, 180, 206, 0.3);
+}
