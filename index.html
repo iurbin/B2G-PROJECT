@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
     <!-- AOS Animation CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
 
     <!-- Navigation -->
@@ -21,7 +23,8 @@
             <a class="navbar-brand fw-bold" href="#">
                 <img src="images/B2G-logo.svg" class="logo-image-header d-inline-block" width="150px" height="auto" />
             </a>
-            <button class="navbar-toggler ios-btn-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler ios-btn-icon" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
                 <i class="bi bi-list"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -39,13 +42,19 @@
 
     <!-- Hero Section -->
     <header class="hero-section">
+        <!-- <div class="main-background cover-image"></div> -->
         <div class="container text-center px-4">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <span class="ios-badge mb-3 d-inline-block" data-aos="fade-down" data-aos-delay="100">By Gobierno Digital</span>
-                    <h1 class="display-3 fw-bold mb-4" data-aos="fade-up" data-aos-delay="200">Gobiernos inteligentes para la nueva era digital</h1>
-                    <p class="lead mb-5 hero-text" data-aos="fade-up" data-aos-delay="300">Nos especializamos en soluciones digitales que modernizan y optimizan la gestión pública con IA y tecnología avanzada.</p>
-                    <div class="d-flex flex-column flex-sm-row justify-content-center gap-3" data-aos="fade-up" data-aos-delay="400">
+                    <!-- <span class="ios-badge mb-3 d-inline-block" data-aos="fade-down" data-aos-delay="100">By Gobierno
+                        Digital</span> -->
+                    <h1 class="display-3 fw-bold mb-4" data-aos="fade-up" data-aos-delay="200">Gobiernos inteligentes
+                        para la nueva era digital</h1>
+                    <p class="lead mb-5 hero-text" data-aos="fade-up" data-aos-delay="300">Nos especializamos en
+                        soluciones digitales que modernizan y optimizan la gestión pública con IA y tecnología avanzada.
+                    </p>
+                    <div class="d-flex flex-column flex-sm-row justify-content-center gap-3" data-aos="fade-up"
+                        data-aos-delay="400">
                         <a href="#services" class="btn btn-primary ios-btn btn-lg">Contáctanos </a>
                     </div>
                 </div>
@@ -53,32 +62,68 @@
         </div>
     </header>
 
-    <!-- Stats/Logos Section -->
-    <section class="py-5 bg-light-blue">
+    <!-- Logos Section -->
+    <section class="py-5 bg-dark">
         <div class="container">
-            <div class="row text-center ios-stats-container">
-                <div class="col-md-4 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="100">
-                    <h2 class="display-4 fw-bold text-primary">50+</h2>
-                    <p class="fw-medium">Government Agencies</p>
-                </div>
-                <div class="col-md-4 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="200">
-                    <h2 class="display-4 fw-bold text-primary">10M+</h2>
-                    <p class="fw-medium">Citizens Reached</p>
-                </div>
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                    <h2 class="display-4 fw-bold text-primary">100%</h2>
-                    <p class="fw-medium">Compliance Rate</p>
+            <div id="logosCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up"
+                data-aos-delay="100">
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="row align-items-center text-center">
+                            <div class="col-6 col-md-3 mb-4 mb-md-0">
+                                <img src="images/logos/ANDA.png" class="img-fluid"
+                                    style="max-height: 80px; object-fit: contain; filter: grayscale(100%); opacity: 0.7; transition: all 0.3s ease;"
+                                    alt="ANDA" onmouseover="this.style.filter='none'; this.style.opacity='1'"
+                                    onmouseout="this.style.filter='grayscale(100%)'; this.style.opacity='0.7'">
+                            </div>
+                            <div class="col-6 col-md-3 mb-4 mb-md-0">
+                                <img src="images/logos/ASAMBLEA LEGISLATIVA.png" class="img-fluid"
+                                    style="max-height: 80px; object-fit: contain; filter: grayscale(100%); opacity: 0.7; transition: all 0.3s ease;"
+                                    alt="Asamblea Legislativa"
+                                    onmouseover="this.style.filter='none'; this.style.opacity='1'"
+                                    onmouseout="this.style.filter='grayscale(100%)'; this.style.opacity='0.7'">
+                            </div>
+                            <div class="col-6 col-md-3 mb-4 mb-md-0">
+                                <img src="images/logos/MIAMI DADE.png" class="img-fluid"
+                                    style="max-height: 80px; object-fit: contain; filter: grayscale(100%); opacity: 0.7; transition: all 0.3s ease;"
+                                    alt="Miami Dade" onmouseover="this.style.filter='none'; this.style.opacity='1'"
+                                    onmouseout="this.style.filter='grayscale(100%)'; this.style.opacity='0.7'">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img src="images/logos/MINISTERIO DE SALUD.png" class="img-fluid"
+                                    style="max-height: 80px; object-fit: contain; filter: grayscale(100%); opacity: 0.7; transition: all 0.3s ease;"
+                                    alt="Ministerio de Salud"
+                                    onmouseover="this.style.filter='none'; this.style.opacity='1'"
+                                    onmouseout="this.style.filter='grayscale(100%)'; this.style.opacity='0.7'">
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Transform Section -->
+    <section id="services" class="py-6">
+        <div class="container pt-5">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="fw-bold display-5">Transformamos los servicios públicos</h2>
+                <p class="text-muted lead">Diseñamos e implementamos soluciones digitales avanzadas adaptadas a las
+                    necesidades específicas de cada entidad gubernamental, asegurando resultados precisos y eficientes.
+                </p>
+            </div>
+        </div>
+    </section>
     <!-- Services Section -->
     <section id="services" class="py-6">
         <div class="container pt-5">
             <div class="text-center mb-5" data-aos="fade-up">
-                <h2 class="fw-bold display-5">Our Services</h2>
-                <p class="text-muted lead">Tailored marketing solutions for the public sector.</p>
+                <h2 class="fw-bold display-5">Transformamos los servicios públicos</h2>
+                <p class="text-muted lead">Diseñamos e implementamos soluciones digitales avanzadas adaptadas a las
+                    necesidades específicas de cada entidad gubernamental, asegurando resultados precisos y eficientes.
+                </p>
             </div>
             <div class="row g-4">
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
@@ -87,7 +132,8 @@
                             <i class="bi bi-megaphone"></i>
                         </div>
                         <h4 class="fw-bold mb-3">Public Relations</h4>
-                        <p class="text-muted mb-0">Strategic communication plans to build trust and transparency between your agency and the public.</p>
+                        <p class="text-muted mb-0">Strategic communication plans to build trust and transparency between
+                            your agency and the public.</p>
                     </div>
                 </div>
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
@@ -96,7 +142,8 @@
                             <i class="bi bi-laptop"></i>
                         </div>
                         <h4 class="fw-bold mb-3">Digital Strategy</h4>
-                        <p class="text-muted mb-0">Modernizing digital touchpoints with intuitive user experiences that meet federal accessibility standards.</p>
+                        <p class="text-muted mb-0">Modernizing digital touchpoints with intuitive user experiences that
+                            meet federal accessibility standards.</p>
                     </div>
                 </div>
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
@@ -105,7 +152,8 @@
                             <i class="bi bi-shield-check"></i>
                         </div>
                         <h4 class="fw-bold mb-3">Secure Platforms</h4>
-                        <p class="text-muted mb-0">Developing compliant, robust hosting and web solutions tailored to strict government security requirements.</p>
+                        <p class="text-muted mb-0">Developing compliant, robust hosting and web solutions tailored to
+                            strict government security requirements.</p>
                     </div>
                 </div>
             </div>
@@ -119,7 +167,8 @@
                 <div class="col-lg-8" data-aos="fade-up">
                     <div class="ios-card p-5 text-center">
                         <h2 class="fw-bold mb-3">Ready to transform your agency?</h2>
-                        <p class="text-muted mb-4 pb-2">Get in touch with our experts to discuss your upcoming initiative.</p>
+                        <p class="text-muted mb-4 pb-2">Get in touch with our experts to discuss your upcoming
+                            initiative.</p>
                         <form class="text-start">
                             <div class="mb-3">
                                 <label for="name" class="form-label fw-medium">Full Name</label>
@@ -127,11 +176,13 @@
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label fw-medium">Gov Email Address</label>
-                                <input type="email" class="form-control ios-input" id="email" placeholder="name@agency.gov">
+                                <input type="email" class="form-control ios-input" id="email"
+                                    placeholder="name@agency.gov">
                             </div>
                             <div class="mb-4">
                                 <label for="message" class="form-label fw-medium">Project Details</label>
-                                <textarea class="form-control ios-input" id="message" rows="4" placeholder="How can we assist your agency?"></textarea>
+                                <textarea class="form-control ios-input" id="message" rows="4"
+                                    placeholder="How can we assist your agency?"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary ios-btn w-100 btn-lg">Send Message</button>
                         </form>
@@ -144,7 +195,8 @@
     <!-- Footer -->
     <footer class="py-4 ios-footer text-center">
         <div class="container">
-            <p class="mb-0 fw-medium text-muted">&copy; 2026 B2G By Gobierno Digital - Todos los derechos reservados.</p>
+            <p class="mb-0 fw-medium text-muted">&copy; 2026 B2G By Gobierno Digital - Todos los derechos reservados.
+            </p>
         </div>
     </footer>
 
@@ -160,4 +212,5 @@
         });
     </script>
 </body>
+
 </html>
