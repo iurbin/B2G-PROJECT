@@ -1,10 +1,13 @@
 /* Color Palette variables */
 :root {
     --color-white: #ffffff;
-    --color-primary: #152ae8; /* Blue */
-    --color-light: #afb4ce;   /* Light Gray/Blue */
+    --color-primary: #152ae8;
+    /* Blue */
+    --color-light: #afb4ce;
+    /* Light Gray/Blue */
     --color-black: #000000;
-    --color-bg: #f5f5f7; /* iOS background color */
+    --color-bg: #f5f5f7;
+    /* iOS background color */
 }
 
 /* Typography & Base */
@@ -16,7 +19,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     letter-spacing: -0.02em;
 }
 
@@ -25,7 +33,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-light-blue {
-    background-color: rgba(175, 180, 206, 0.15); /* Soft version of #afb4ce */
+    background-color: rgba(175, 180, 206, 0.15);
+    /* Soft version of #afb4ce */
 }
 
 .py-6 {
@@ -69,7 +78,8 @@ h1, h2, h3, h4, h5, h6 {
 .ios-btn {
     background-color: var(--color-primary);
     border: none;
-    border-radius: 24px; /* Highly rounded */
+    border-radius: 24px;
+    /* Highly rounded */
     padding: 10px 24px;
     font-weight: 600;
     letter-spacing: -0.3px;
@@ -78,7 +88,9 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 4px 14px 0 rgba(21, 42, 232, 0.39);
 }
 
-.ios-btn:hover, .ios-btn:focus, .ios-btn:active {
+.ios-btn:hover,
+.ios-btn:focus,
+.ios-btn:active {
     background-color: #1021bc !important;
     transform: translateY(-1px);
     box-shadow: 0 6px 20px rgba(21, 42, 232, 0.23);
@@ -139,8 +151,10 @@ h1, h2, h3, h4, h5, h6 {
 .ios-card {
     background-color: var(--color-white);
     border-radius: 24px;
-    border: 1px solid rgba(175, 180, 206, 0.3); /* Subtle light border */
-    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05); /* Soft, diffused shadow */
+    border: 1px solid rgba(175, 180, 206, 0.3);
+    /* Subtle light border */
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05);
+    /* Soft, diffused shadow */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -183,6 +197,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--color-white);
     border-top: 1px solid rgba(175, 180, 206, 0.3);
 }
+
 .cover-image {
     background: url(images/Digitalizacion.jpg) center no-repeat;
     width: 100%;
@@ -190,4 +205,9 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     position: absolute;
     top: 110px;
+}
+
+.bg-bottom-1 {
+    background: url('images/bg-bottom-1.svg') bottom center no-repeat;
+    background-size: 100%;
 }
