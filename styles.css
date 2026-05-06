@@ -211,3 +211,17 @@ h6 {
     background: url('images/bg-bottom-1.svg') bottom center no-repeat;
     background-size: 100%;
 }
+
+.main-background {
+    background: url('images/main-background.svg') center no-repeat;
+    background-size: cover;
+}
+
+.modern-card {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 0 none !important;
+    border-radius: 0;
+    padding: 40px 40px;
+}
