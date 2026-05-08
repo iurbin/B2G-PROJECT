@@ -234,3 +234,19 @@ img.cloud-logos {
     background:url(images/B2G-bg.jpg) center center no-repeat;
     background-size: cover;
 }
+.card.rounded{
+    overflow: hidden;
+    border-radius: 50px !important;
+}
+.logos-in-grid{
+    width: 60%;
+    height: auto;
+}
+.logos-in-grid.aws{
+    width: auto;
+    height: 30%;
+}
+.logos-in-grid.azure{
+    width: auto;
+    height: 30%;
+}
