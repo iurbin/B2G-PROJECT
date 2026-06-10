@@ -75,7 +75,7 @@
                 data-aos-delay="100">
                 <div class="container p-5">
                     <div class="text-center mb-5" data-aos="fade-up">
-                        <h2 class="display-5 fw-bold mb-4">Transformamos los servicios públicos</h2>
+                        <h2 class="display-5 fw-bold mb-4 text-primary">Transformamos los servicios públicos</h2>
                         <p class="text-muted lead">Diseñamos e implementamos soluciones digitales avanzadas adaptadas a
                             las
                             necesidades específicas de cada entidad gubernamental, asegurando resultados precisos y
@@ -149,11 +149,12 @@
                 data-aos-delay="100">
                 <div class="container p-5">
                     <div class="text-center mb-5" data-aos="fade-up">
-                        <h2 class="display-5 fw-bold mb-4">Soluciones que marcan la diferencia</h2>
+                        <img src="images/soluciones.svg" class="soluciones-cover" />
+                        <h2 class="display-5 fw-bold mb-4 text-primary">Soluciones que marcan la diferencia</h2>
                         <p class="text-muted lead">Transformamos las estrategias en resultados reales, asegurando que
                             cada solución digital genere avances tangibles en la gestión pública y en la calidad del
                             servicio a los ciudadanos.
-                        </p>
+                        </p>    
                     </div>
                 </div>
 
@@ -230,7 +231,7 @@
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="ios-card h-100 p-4">
                         <div class="card-icon mb-3">
-                            <i class="bi bi-currency-dollar"></i>
+                            <i class="bi bi-graph-up-arrow"></i>
                         </div>
                         <h4 class="fw-bold mb-3 text-primary">Social Listening<br>
                             <span class="text-muted">Análisis estratégico</span>
@@ -242,7 +243,7 @@
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="ios-card h-100 p-4">
                         <div class="card-icon mb-3">
-                            <i class="bi bi-graph-up-arrow"></i>
+                            <i class="bi bi-headset"></i>
                         </div>
                         <h4 class="fw-bold mb-3 text-primary">Mesas de Servicio<br>
                             <span class="text-muted">Soporte y operación</span>
@@ -420,7 +421,7 @@
     <!-- Footer -->
     <footer class="py-4 ios-footer text-center">
         <div class="container">
-            <p class="mb-0 fw-medium text-muted">&copy; 2026 B2G By Gobierno Digital - Todos los derechos reservados.
+            <p class="mb-0 fw-medium text-muted">&copy; 2026 B2G Latam - Todos los derechos reservados.
             </p>
         </div>
     </footer>
